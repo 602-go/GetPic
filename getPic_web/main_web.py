@@ -50,8 +50,7 @@ def result():  # 주소함수
     if len(keyword) < 3:
         pass  # 예외처리
     else:
-        image_link = get_crawlingImage(keyword, "KRTSOhiLDjFo8VpVkekS", "PnJAftBpaI", time_info, now)
-        # image_link = get_crawlingImage(keyword, "KRTSOhiLDjFo8VpVkekS", "PnJAftBpaI", time_info)
+        image_link = get_crawlingImage(keyword, "PAPAGO_API_ID", "PAPAGO_API_PASSWORD", time_info, now)
 
         ##############################
         # 4. Predict sentiment label #
