@@ -86,7 +86,7 @@ You can freely download the resulted image :) <br/>
 
 - Colab에서 [런타임] - [런타임 유형 변경] - 하드웨어 가속기(GPU) 사용을 권장합니다.
 
-- `test.ipynb`: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/602-go/getPic/getPic_chatbot/test.ipynb)
+- `test.ipynb`: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/602-go/getPic/getPic_chatbot/blob/master/test.ipynb)
 
 ---
 
