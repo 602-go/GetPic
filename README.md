@@ -12,18 +12,18 @@
 ---
 
 ## Table of Contents
-- [1. About getPic](#1-about-getPic)
+[1. About getPic](#1-about-getPic)
   - [Example (ChatBot)](#example-chatbot)
   - [Example (Web)](#example-web)
-- [2. ChatBot](#2-chatbot)
+[2. ChatBot](#2-chatbot)
   - [2.0. Install](#20-install)
   - [2.1. Test in Colab](#21-test-in-colab)
-- [3. Web](#3-web)
+[3. Web](#3-web)
   - [3.0. Install](#30-install)
   - [3.1. At the Anaconda Prompt](#31-at-the-anaconda-prompt)
   - [3.2. At the PyCharm](#32-at-the-pycharm)
-- [4. Contributing](#4-contributing)
-- [5. Links](#5-links)
+[4. Contributing](#4-contributing)
+[5. Links](#5-links)
   
 
 ---
