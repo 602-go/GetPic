@@ -7,6 +7,7 @@ import nltk
 import numpy as np
 import random
 nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 
 class Crawling:
     def __init__(self, kor_keyword, client_id, client_secret):
@@ -110,7 +111,10 @@ class Crawling:
 
 
     def get_candidate_link(self):
-        cap_keywords = [nltk.word_tokenize(cap) for cap in self.caps]
+        #cap_keywords = [nltk.word_tokenize(cap) for cap in self.caps]
+        cap_keywords = []
+        for cap in caps:
+            cap_keywords.append([word for word, pos in nltk.pos_tag(nltk.word_tokenize(str(sentence))) if pos.startswith('N')])
         jaccard_sim = [len(set(self.eng_keyword) & set(cap_keyword)) for cap_keyword in cap_keywords]
         candidate_index = np.argsort(jaccard_sim)[-5:] # index of top 5 jaccard sim
         candidate_link = [self.links[index] for index in candidate_index]
